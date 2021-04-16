@@ -1,0 +1,127 @@
+x= True
+y= False
+print(x,y)
+print(x)
+print(y)
+a=5
+b=4
+if a > b :
+ print("출력")
+print("안녕"+"잘지내니?")
+print("너 몇 살이니?"+str(19)+"살이야")
+      
+x =15
+y=("19")
+print(str(x)+y)
+print(x+int(y))
+x=5
+y=3
+z=1.2
+print("1)", x + y +z)
+print("3)", x*y*z)
+print("4)", x/y/z)
+print("5)", x**y)
+print("6)", x%y)
+x= "hello"
+y= "bye"
+z="""  안녕하세요.
+    저는 21학번입니다. """
+print("1)",x)
+print("2)",y)
+print("3)",z,"\n")
+print("4)",x+y+z)
+x=1 
+y=2
+
+print(x)
+print(y)
+print(x,y)
+print(x+y)
+z = "안녕"
+print(z)
+8.7)
+
+x = [1,2,3,4]
+    # 0,1,2,3
+
+num_elements = len(x)
+print(num_elements)
+
+
+
+x = [3,2,4,1]
+x = ["라","나","가","다"]
+x = ['라', '나', '가', '다']
+
+y = sorted(x)
+print(y)
+
+
+x = [3,2,4,1]
+y = sum(x)
+print(y)
+# 1
+x = [3,2,4,1]
+
+for n in x:           # 리스트 x 를 n에 3,2,4,1
+    print(n)          # 하나씩 출력
+    
+# 2
+x = [3,2,4,1]
+y = ["Hello", "There"]
+for c in y:           # 리스트 y를 c에 차례로
+    print(c)          # 출력된다.
+    
+# 3    
+# 엘레먼트 위치 찾기
+x = [3,2,4,1]
+    #0,1,2,3
+y = ["Hello", "There"]
+
+print(x.index(4))        # 변수 x의 리스트 0, 1, 2에서 2에 있다.  없는 숫자를 넣으면 에러
+print(y.index("Hello"))  # 변수 y에서 Hello는 0번에 있다.
+
+
+# # 4
+x = [3,2,4,1]
+    #0,1,2,3
+y = ["Hello", "There", "bye"]
+
+print("bye" in y)    # y에 bye가 있는지 True or False로 확인
+print("Hello" in y)  # y에 Hello가 있는 True or False로 확인
+
+if "Hello" in y:
+    print("Hello가 있어요.")
+    
+if "bye" in y:
+    print("bye")
+#print("bye는 없어요.")
+def sayhello(name,age):
+    if age < 10:
+        print("안녕." + name +"군")
+    elif age <= 20 and age >= 10:
+        print("안녕하세요." + name +" 씨")
+    else:
+        print("안녕하십니까?" + name + " 님")
+        
+sayhello("철수", 6)
+sayhello("태희", 11)
+sayhello("정수", 21)
+sayhello("병선", 30)
+def chat(name1, name2):      
+    print("%s: 안녕? 넌 몇살이니?" %name1)
+    print("%s: 나? 나는 20살이야!" %name2)
+chat("정수", "태희")
+chat("은지", "가연")
+def chat(name1, name2, age): 
+    print("%s: 안녕? 넌 몇살이니?" % name1)
+    print("%s: 나? 나는 %d" % (name2, age) + "살이야!")
+chat("정수", "태희", 20)
+chat("은지", "가연", 19)
+def chat():
+    print("철수: 안녕? 넌 몇살이니?")
+    print("영희: 나? 나는 20 살이야!","\n")
+chat()
+chat()
+chat()
+chat()

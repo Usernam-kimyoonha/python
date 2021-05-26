@@ -1,0 +1,4 @@
+pay_rate = 7000 # 시급이 7000원이다
+hour_worked = 12 # 하루 일한 시간이 12시간이다.
+montly_pay = pay_rate * hour_worked # 하루 일당을 계산 한다.
+print(montly_pay) # 하루 일당

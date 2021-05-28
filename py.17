@@ -1,0 +1,13 @@
+det sayhello (name,ago): #이름 부르기
+    if age < 5: # 5가 더 크면
+       print("반가워" + name + "양")
+    elif age <= 10 and age >= 5: 
+         print("반갑습니다." + name + "님")
+    elif:
+        print("반갑습니까?" + name + "씨")
+
+sayhello("윤하", 10)
+sayhello("윤재", 13)
+sayhello("지훈", 17)
+sayhello("승민", 20)
+sayhello("민종", 25)

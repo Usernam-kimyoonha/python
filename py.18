@@ -1,5 +1,9 @@
 x= True
 y= False
-print
-print
-print
+print(x,y)
+print(x)
+print(y)
+a=10
+b=5
+if a > b # a가b보다크다
+print("출력") # a가 더 크면 x출력
